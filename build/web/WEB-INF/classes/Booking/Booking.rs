@@ -1,0 +1,2 @@
+Booking.PaymentStatus
+Booking.Booking
