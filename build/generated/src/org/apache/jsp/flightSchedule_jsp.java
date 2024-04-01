@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class flightSchedule_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -182,7 +182,7 @@ public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"w-2/3 col-6\">\n");
       out.write("                      <h3 class=\"text-lg font-medium\">Malaysia Airlines</h3>\n");
       out.write("                      <p class=\"text-gray-600 text-xs\">MS370</p>\n");
-      out.write("                      <h4 class=\"text-red-700 text-xs font-bold mt-1\">BOEING 77-90</h4>\n");
+      out.write("                      <p class=\"text-red-700 text-xs\">BOEING 77-90</p>\n");
       out.write("                    </div>\n");
       out.write("                    <div class=\"col-4 text-end\">\n");
       out.write("                      <h4 class=\"text-3xl font-medium\"><sup class=\"text-lg text-purple-800\">RM</sup> 150</h4>\n");
@@ -209,7 +209,7 @@ public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                          <option>5</option>\n");
       out.write("                        </select>\n");
       out.write("                      </label>\n");
-      out.write("                      <button class=\"text-red-700 hover:bg-red-100 px-2 ms-3\">BOOK NOW</button>\n");
+      out.write("                      <button class=\"text-red-700 hover:bg-red-100 px-2 ms-3\" href=\"flightBooking.jsp\">BOOK NOW</button>\n");
       out.write("                    </div>\n");
       out.write("                  </div>\n");
       out.write("                  <div class=\"border w-full rounded mt-5 flex p-4 justify-between items-center flex-wrap\">\n");
@@ -218,7 +218,7 @@ public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"w-2/3 col-6\">\n");
       out.write("                      <h3 class=\"text-lg font-medium\">Air Asia </h3>\n");
       out.write("                      <p class=\"text-gray-600 text-xs\">AK6117</p>\n");
-      out.write("                      <h4 class=\"text-red-700 text-xs font-bold mt-1\">BOEING 77-90</h4>\n");
+      out.write("                      <p class=\"text-red-700 text-xs\">BOEING 77-90</p>\n");
       out.write("                    </div>\n");
       out.write("                    <div class=\"col-4 text-end\">\n");
       out.write("                      <h4 class=\"text-3xl font-medium\"><sup class=\"text-lg text-purple-800\">RM</sup>90</h4>\n");
@@ -245,7 +245,7 @@ public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                          <option>5</option>\n");
       out.write("                        </select>\n");
       out.write("                      </label>\n");
-      out.write("                      <button class=\"text-red-700 hover:bg-red-100 px-2 ms-3\">BOOK NOW</button>\n");
+      out.write("                      <button class=\"text-red-700 hover:bg-red-100 px-2 ms-3\" href=\"flightBooking.jsp\">BOOK NOW</button>\n");
       out.write("                    </div>\n");
       out.write("                  </div>\n");
       out.write("                  <div class=\"border w-full rounded mt-5 flex p-4 justify-between items-center flex-wrap\">\n");
@@ -254,7 +254,7 @@ public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    <div class=\"w-2/3 col-6\">\n");
       out.write("                      <h3 class=\"text-lg font-medium\">Batik Air</h3>\n");
       out.write("                      <p class=\"text-gray-600 text-xs\">BTK938</p>\n");
-      out.write("                      <h4 class=\"text-red-700 text-xs font-bold mt-1\">BOEING 77-90</h4>\n");
+      out.write("                      <p class=\"text-red-700 text-xs\">BOEING 77-90</p>\n");
       out.write("                    </div>\n");
       out.write("                    <div class=\"col-4 text-end\">\n");
       out.write("                      <h4 class=\"text-3xl font-medium\"><sup class=\"text-lg text-purple-800\">RM</sup> 200</h4>\n");
@@ -285,7 +285,6 @@ public final class flight_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                    </div>\n");
       out.write("                  </div>\n");
       out.write("                </div>\n");
-      out.write("                <button class=\"px-4 py-4 bg-white text-purple-700 w-full mt-3 rounded shadow font-bold hover:bg-purple-100\">PROCEED TO BOOKING PAGE</button>\n");
       out.write("              </div>\n");
       out.write("          </div>                                      \n");
       out.write("        </div>\n");
